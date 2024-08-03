@@ -1,0 +1,9 @@
+autopep8==2.0.2
+rich==13.3.4
+python-docx==0.8.11
+pyperclip==1.8.2
+pygments==2.15.1
+selenium==4.20.0
+webdriver-manager==4.9.0
+radon==5.1.0
+chromedriver-autoinstaller==0.2.2
