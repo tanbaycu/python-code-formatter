@@ -34,7 +34,7 @@ console = Console()
 
 def format_code(code):
     try:
-        formatted_code = autopep8.fix_code(code)
+        formatted_code = autopep8.fix_code(code, options={'aggressive': 2})
         return formatted_code
     except Exception as e:
         console.print(f"[bold red]Error: {e}[/bold red]")
