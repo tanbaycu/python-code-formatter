@@ -1,0 +1,18 @@
+[pep8]
+
+max-line-length = 79
+
+
+blank-lines = 2
+
+
+space-around-operators = 1
+
+
+docstring-quotes = double
+
+
+ignore = E501, W503
+
+
+aggressive = 2
